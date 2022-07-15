@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Partick's Contact Info</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <hr />
+    <p>Phone: +1(XXX)-XXX-XXXX</p>
+    <p>
+      Email:
+      <a href="mailto:deltaepsilonlambda@tutanota.com"
+        >deltaepsilonlambda@tutanota.com</a
+      >
+    </p>
+    <hr />
+    <form action="mailto:deltaepsilonlambda@tutanota.com" method="post" enctype="text/plain">
+      <label for="name">Your name:</label>
+      <input type="text" name="yourName" value="" required min="4" max="8" /><br />
+      <label for="YourEmail">Your Email</label>
+      <input type="email" required name="yourEmail" id="" /><br />
+      <label for="yourMessage">Your Message:</label><br />
+      <textarea name="yourMessage" rows="10" cols="40"></textarea><br />
+      <label for="email list">Do you want to sign up to the email list?</label>
+      <input type="checkbox" name="email list" id="" /><br />
+      <input type="submit" name="submitQuery" value="Submit Query" /><br />
+    </form>
+  </body>
+</html>
